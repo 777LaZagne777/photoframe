@@ -1,0 +1,17 @@
+# Secrets et donnees personnelles : ne jamais les publier
+.env
+.env.*
+!.env.example
+telegram_allowed.json
+telegram_admins.json
+photos/
+.meta.json
+.thumbs/
+.display/
+
+# Fichiers generes
+__pycache__/
+*.pyc
+*.bak*
+*.part
+*.tmp
